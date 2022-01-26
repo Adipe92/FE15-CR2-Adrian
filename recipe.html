@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Review 2 - Adrian Pedziwiatr</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/5161ba1bb0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        .img-container {
+            padding: 100px;
+        }
+        
+        .title {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .pic-rc {
+            margin: 15px;
+            text-align: center;
+        }
+
+        .txt-rc {
+            width: 100%;
+            padding: 80px;
+        }
+
+
+        ul {
+            list-style-type: none;
+        }
+
+        .hr {
+            width: 30%;
+            margin: 10px;
+        }
+
+        .space {
+            margin-top: 30px;
+        }
+
+        .font {
+            font-size: 40px;
+            color: rgba(248, 207, 101, 0.986);
+        }
+
+        .font-p {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .gold {
+            color: gold;
+        }
+
+
+        @media screen and (max-width:500px) {
+
+            .title {
+                padding: 0;
+                margin-top: 20px;
+                font-size: 15px;
+            }
+
+            .img-container {
+                padding: 0px;
+            }
+
+            .pic-rc {
+                margin-top: 15px;
+            }
+
+            .space {
+                margin-top: 15px;
+            }
+
+            .hr {
+                width: 150px;
+            }
+
+            nav {
+                font-size: 8px;
+                height: 70px;
+            }
+
+            .container-nv {
+                height: 70px;
+            }
+
+            .container-hd {
+                
+                .lg {
+                    width: 200px;
+                    margin-left: 0px;
+                }
+
+                h2 {
+                    font-size: 10px;
+                }
+
+                .fas {
+                    margin-left: 45px;
+                    margin-right: 40px;
+                }
+            }
+
+            .container-pic {
+                margin: 0;
+                margin-bottom: 15px;
+                padding: 0;
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+
+            .links {
+                text-align: center;
+                margin-left: -30px;
+            }
+
+            .container-ft {
+                .links {
+                    padding: 0;
+                }
+
+                .ft-li {
+                    margin-top: 20px;
+                    margin-left: 0px;
+                    font-size: 10px;
+                }
+
+                .fab {
+                    font-size: 12px;
+                }
+
+                .copy {
+
+                    font-size: 13px;
+                }
+
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-hd">
+            <div class="logo">
+                <img class="lg" src="logo_lg.png" alt="logo">
+            </div>
+            <div class="bars">
+                <div>
+                    <h2><a href="https://www.bbcgoodfood.com/recipes/chicken-chorizo-jambalaya"
+                            target="blank">Recipe</a></h2>
+                </div>
+                <div class="fas">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <nav>
+        <div class="container-nv">
+            <div class="btn"><a href="#">Pasta</a></div>
+            <div class="btn"><a href="#">Taco</a></div>
+            <div class="btn"><a href="#">Pizza</a></div>
+            <div class="btn"><a href="#">Dessert</a></div>
+            <div class="btn"><a href="#">Breakfast</a></div>
+            <div class="btn"><a href="#">Lunch</a></div>
+            <div class="btn"><a href="#">Dinner</a></div>
+            <div class="btn"><a href="#">Recipe of the Month</a></div>
+        </div>
+    </nav>
+    <hr>
+    <main>
+
+        <div class="img-container">
+            <h1 class="title">Recipe of the month!</h1>
+            <div class="pic-rc">
+                <img src="img/jumba.jpg" alt="jumba">
+                <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Jambalaya_EXPS_CHBZ19_17627_B10_24_4b.jpg"
+                    width="340px" alt="">
+            </div>
+            <div class="txt-rc">
+                <h1 class="space font">Chicken Chorizo Jumbalaya</h1>
+                <p class="space font-p">Raitings</p>
+                <span>
+                    <p class="gold">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                    <p>1258</p>
+                </span>
+                <div class="method">
+                    <div>
+                        <h2 class="space">Ingredients</h2>
+                        <ul class="space">
+                            <li>1 tbsp olive oil</li>
+                            <hr class="hr">
+                            <li>2 chicken breasts, chopped</li>
+                            <hr class="hr">
+                            <li>1 onion, diced</li>
+                            <hr class="hr">
+                            <li>1 red pepper, thinly sliced</li>
+                            <hr class="hr">
+                            <li>2 garlic cloves, crushed</li>
+                            <hr class="hr">
+                            <li>75g chorizo, sliced</li>
+                            <hr class="hr">
+                            <li>1 tbsp Cajun seasoning</li>
+                            <hr class="hr">
+                            <li>250g long grain rice</li>
+                            <hr class="hr">
+                            <li>400g can plum tomato</li>
+                            <hr class="hr">
+                            <li>350ml chicken stock</li>
+                            <hr class="hr">
+                        </ul>
+
+                    </div>
+                    <div class="txt-w">
+                        <h2 class="space">Method</h2>
+                        <h3 class="space">Step I</h3>
+                        <p>Heat 1 tbsp olive oil in a large frying pan with a lid and brown 2 chopped chicken breasts
+                            for 5-8 mins until golden.</p>
+                        <h3 class="space">Step II</h3>
+                        <p>Remove and set aside. Tip in the 1 diced onion and cook for 3-4 mins until soft.</p>
+                        <h3 class="space">Step III</h3>
+                        <p>Add 1 thinly sliced red pepper, 2 crushed garlic cloves, 75g sliced chorizo and 1 tbsp Cajun
+                            seasoning, and cook for 5 mins more.</p>
+                        <h3 class="space">Step IV</h3>
+                        <p>Stir the chicken back in with 250g long grain rice, add the 400g can of tomatoes and 350ml
+                            chicken stock. Cover and simmer for 20-25 mins until the rice is tender.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container-ft">
+            <div class="links">
+                <span class="ft-li"><a href="https://pl.wikipedia.org/wiki/Gordon_Ramsay"
+                        target="blank">About</a></span>
+                <span class="ft-li"><a href="https://tasty.co/" target="blank">Recipes</a></span>
+                <span class="ft-li"><a href="#">FAQs</a></span>
+                <span class="ft-li"><a href="https://codefactory.wien/en/contact-en/" target="blank">Contact
+                        Us</a></span>
+            </div>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="copy">
+                <p>Copyright &copy; 2022 Adrian Pedziwiatr</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
